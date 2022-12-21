@@ -25,6 +25,10 @@ dependencies {
     annotationProcessor 'org.springframework.boot:spring-boot-configuration-processor'
     annotationProcessor 'org.projectlombok:lombok'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    // https://mvnrepository.com/artifact/com.github.tpiecora/dockerclient
+    implementation 'com.github.tpiecora:dockerclient_2.11:0.4.0'
+    // https://mvnrepository.com/artifact/org.json/json
+    implementation 'org.json:json:20220924'
 }
 
 tasks.named('test') {
